@@ -1,0 +1,86 @@
+2025-03-10 01:32:16,258 - INFO - ------ Starting DRG analysis ------
+2025-03-10 01:32:16,258 - INFO - Input file: C:\Users\HP\AppData\Local\Temp\drg_input_1741550535081.json
+2025-03-10 01:32:16,258 - INFO - Output file: C:\Users\HP\AppData\Local\Temp\drg_output_1741550535081.txt
+2025-03-10 01:32:16,258 - DEBUG - Loaded input data, keys: ['diagnosisCodes', 'procedureCodes', 'patientInfo', 'optimizationCriteria']
+2025-03-10 01:32:16,258 - DEBUG - Received data: {
+  "diagnosisCodes": [
+    {
+      "id": "diag-1",
+      "value": "J18.9",
+      "description": "Pneumonia, unspecified organism"
+    },
+    {
+      "id": "diag-2",
+      "value": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications"
+    },
+    {
+      "id": "diag-3",
+      "value": "I10",
+      "description": "Essential (primary) hypertension"
+    },
+    {
+      "id": "diag-4",
+      "value": "J44.9",
+      "description": "Chronic obstructive pulmonary disease, unspecified"
+    }
+  ],
+  "procedureCodes": [
+    {
+      "id": "proc-1",
+      "value": "0BH17EZ",
+      "description": "Insertion of Endotracheal Airway into Trachea, Via Natural or Artificial Opening"
+    }
+  ],
+  "patientInfo": {
+    "gender": "male",
+    "age": 67,
+    "admissionDate": "2025-03-09",
+    "dischargeStatus": "home",
+    "dischargedAlive": true
+  },
+  "optimizationCriteria": "reimbursement"
+}
+2025-03-10 01:35:11,181 - INFO - ------ Starting DRG analysis ------
+2025-03-10 01:35:11,182 - INFO - Input file: C:\Users\HP\AppData\Local\Temp\drg_input_1741550710230.json
+2025-03-10 01:35:11,182 - INFO - Output file: C:\Users\HP\AppData\Local\Temp\drg_output_1741550710230.txt
+2025-03-10 01:35:11,184 - DEBUG - Loaded input data, keys: ['diagnosisCodes', 'procedureCodes', 'patientInfo', 'optimizationCriteria']
+2025-03-10 01:35:11,184 - DEBUG - Received data: {
+  "diagnosisCodes": [
+    {
+      "id": "diag-1",
+      "value": "J18.9",
+      "description": "Pneumonia, unspecified organism"
+    },
+    {
+      "id": "diag-2",
+      "value": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications"
+    },
+    {
+      "id": "diag-3",
+      "value": "I10",
+      "description": "Essential (primary) hypertension"
+    },
+    {
+      "id": "diag-4",
+      "value": "J44.9",
+      "description": "Chronic obstructive pulmonary disease, unspecified"
+    }
+  ],
+  "procedureCodes": [
+    {
+      "id": "proc-1",
+      "value": "0BH17EZ",
+      "description": "Insertion of Endotracheal Airway into Trachea, Via Natural or Artificial Opening"
+    }
+  ],
+  "patientInfo": {
+    "gender": "male",
+    "age": 67,
+    "admissionDate": "2025-03-09",
+    "dischargeStatus": "home",
+    "dischargedAlive": true
+  },
+  "optimizationCriteria": "reimbursement"
+}
